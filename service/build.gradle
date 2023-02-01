@@ -11,4 +11,9 @@ repositories {
 
 dependencies {
 
+    implementation project(":db")
+}
+
+test {
+    useJUnitPlatform()
 }
